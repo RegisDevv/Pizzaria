@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Pizzaria</title>
+</head>
+
+<body>
+
+
+
+    <!--  Menu do site-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color:#eeeeee">
+            <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav" style="text-align:center;">
+                    <li>
+                        <a href="index.html" class="nav-link" style="color:#3D953D; font-size:25px;"><b>CARDÁPIO</b></a>
+                    </li>
+                    <li>
+                        <a href="localizacao.html" class="nav-link"
+                            style="color:#3D953D; font-size:25px;"><b>LOCALIZAÇÃO</b></a>
+                    </li>
+                    <li>
+                        <a href="sobre.html" class="nav-link" style="color:#3D953D; font-size:25px;"><b>SOBRE</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--  Menu do site-->
+
+    <!-- Banner "apaixonados por pizza ♥" -->
+    <section>
+        <div id="banner">
+            <img src="img/banner.jpg" alt="">
+        </div>
+    </section>
+    <!-- Banner "apaixonados por pizza ♥" -->
+
+
+        
+    
+    
+    <!--inicio do Formulario -->
+    <main>
+        <div class="conteudo">
+            <h1>CONTATO</h1>
+            <div class="container">
+                <form>
+                    <label for="nomesobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+        
+                    <label for="email">Assunto</label>
+                    <input type="text" id="assunto" class="input-padrao" required>
+        
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" cols="68" rows="10" class="input-padrao" required></textarea>
+        
+                    <fieldset>
+                        <p>Como prefere o nosso contato ?</p>
+                        <label for="radio-email"><input type="radio" name="contato" value="email"
+                                id="radio-email">E-mail</label>
+        
+        
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                                id="radio-telefone">Telefone</label>
+        
+        
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                                checked>Whatsapp</label>
+                    </fieldset>
+                    <div style="text-align: center;">
+                        <a href="https://wa.me/5511981950165" target="_blank"><input type="submit" value="Enviar" class="enviar"></a>
+                    </div>
+                    
+                </form>    
+
+            </div>
+                
+            
+        </div>
+    <!--fim do Formulario -->
+        
+    </main>
+
+    <footer>
+        <p class="copyright">&copy;Pizzaria - 2022 | Designed by <a href="https://github.com/RegisDevv" target="_blank"><b>RegisDev</b></a></p>
+        <br>
+    </footer>
+    <script src="pizzaria.js"></script>
+</body>
+
+</html>
